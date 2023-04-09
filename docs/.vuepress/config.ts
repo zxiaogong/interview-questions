@@ -5,9 +5,9 @@ import { getDirname, path } from '@vuepress/utils'
 
 export default defineUserConfig({
   plugins: [
-   
+
   ],
-  base:"/interview-questions/", //访问路径
+  base: "/interview-questions/", //访问路径
   lang: 'zh-CN',
   title: '前端面试题笔记',
   description: '前端面试题笔记',
@@ -25,19 +25,53 @@ export default defineUserConfig({
       {
         text: '前端面试题',
         link: '/',
-        children:[
+        children: [
           {
-            text:"javascript",
+            text: "javascript",
             link: '/javascript/',
+            children: [
+              {
+                text: "简答题",
+                link: '/short-answer/',
+              },
+              {
+                text: "算法题",
+                link: '/algorithm/',
+              },
+            ]
           },
           {
-            text:"react",
+            text: "vue",
+            link: '/vue/',
+          },
+          {
+            text: "react",
             link: '/react/',
+          },
+          {
+            text: "node",
+            link: '/node/',
+          },
+          {
+            text: "typescript",
+            link: '/typescript/',
+          },
+          {
+            text: "webpack",
+            link: '/webpack/',
+          },
+          {
+            text: "vite",
+            link: '/vite/',
+          },
+          {
+            text: "http",
+            link: '/http/',
           },
         ],
       },
     ],
-    
+
   }),
-  
+
 })
