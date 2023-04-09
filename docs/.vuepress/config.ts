@@ -7,7 +7,7 @@ export default defineUserConfig({
   plugins: [
    
   ],
-  base:"/", //访问路径配置
+  base:"/interview-questions/", //访问路径
   lang: 'zh-CN',
   title: '前端面试题笔记',
   description: '前端面试题笔记',
