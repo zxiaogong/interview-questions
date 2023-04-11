@@ -32,11 +32,11 @@ export default defineUserConfig({
             children: [
               {
                 text: "简答题",
-                link: '/short-answer/',
+                link: '/javascript/short-answer/',
               },
               {
                 text: "算法题",
-                link: '/algorithm/',
+                link: '/javascript/algorithm/',
               },
             ]
           },
