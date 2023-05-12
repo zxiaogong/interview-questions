@@ -5,16 +5,18 @@ export const pagesComponents = {
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/index.html.vue")),
   // path: /http/
   "v-14b3094e": defineAsyncComponent(() => import(/* webpackChunkName: "v-14b3094e" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/http/index.html.vue")),
-  // path: /node/
-  "v-15051314": defineAsyncComponent(() => import(/* webpackChunkName: "v-15051314" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/node/index.html.vue")),
-  // path: /javascript/
-  "v-e02a086e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e02a086e" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/javascript/index.html.vue")),
-  // path: /vite/
-  "v-157350f2": defineAsyncComponent(() => import(/* webpackChunkName: "v-157350f2" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/vite/index.html.vue")),
   // path: /react/
   "v-dc3b2a6e": defineAsyncComponent(() => import(/* webpackChunkName: "v-dc3b2a6e" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/react/index.html.vue")),
+  // path: /javascript/
+  "v-e02a086e": defineAsyncComponent(() => import(/* webpackChunkName: "v-e02a086e" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/javascript/index.html.vue")),
+  // path: /node/
+  "v-15051314": defineAsyncComponent(() => import(/* webpackChunkName: "v-15051314" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/node/index.html.vue")),
   // path: /typescript/
   "v-6da6abb1": defineAsyncComponent(() => import(/* webpackChunkName: "v-6da6abb1" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/typescript/index.html.vue")),
+  // path: /ts/
+  "v-2d0abff7": defineAsyncComponent(() => import(/* webpackChunkName: "v-2d0abff7" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/ts/index.html.vue")),
+  // path: /vite/
+  "v-157350f2": defineAsyncComponent(() => import(/* webpackChunkName: "v-157350f2" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/vite/index.html.vue")),
   // path: /vue/
   "v-744e35e2": defineAsyncComponent(() => import(/* webpackChunkName: "v-744e35e2" */"/Users/zlg/Desktop/myProject/interview-questions/docs/.vuepress/.temp/pages/vue/index.html.vue")),
   // path: /webpack/

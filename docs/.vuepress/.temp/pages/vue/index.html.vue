@@ -17,6 +17,24 @@
 <ul>
 <li>获取dom</li>
 </ul>
+<h4 id="vue-router实现思路" tabindex="-1"><a class="header-anchor" href="#vue-router实现思路" aria-hidden="true">#</a> vue-router实现思路</h4>
+<ul>
+<li>
+<ol>
+<li>每个组件都能够使用 this.$router this.$route (利用minx混入)</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>初始化路由模式 hash history,并监听变化</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>创建路由表</li>
+</ol>
+</li>
+</ul>
 </div></template>
 
 

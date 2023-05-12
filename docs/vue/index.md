@@ -14,3 +14,12 @@
 
 #### ref
 - 获取dom
+
+#### vue-router实现思路
+- 1. 每个组件都能够使用 this.$router this.$route (利用minx混入)
+- 2. 初始化路由模式 hash history,并监听变化
+- 3. 创建路由表
+
+#### router常用路由模式
+- hash
+- hishtory

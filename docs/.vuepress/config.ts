@@ -41,6 +41,10 @@ export default defineUserConfig({
             ]
           },
           {
+            text: "ts",
+            link: '/ts/',
+          },
+          {
             text: "vue",
             link: '/vue/',
           },
