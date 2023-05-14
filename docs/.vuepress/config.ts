@@ -72,6 +72,10 @@ export default defineUserConfig({
             text: "http",
             link: '/http/',
           },
+          {
+            text: "design-patterns",
+            link: '/design-patterns/',
+          },
         ],
       },
     ],
