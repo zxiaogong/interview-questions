@@ -6,7 +6,7 @@
 全称为 model-view-controller，即模型、视图、控制器。
 Model 负责数据的处理
 View 负责终端界面的展示
-controller 负责维护两者之间的数据传递
+controller 负责视图的更新以及业务逻辑的处理
 坏处：在mvc架构中，controller不仅要负责业务处理，还要负责页面更新。遇到多处页面节点的更新，这是很不友好的。
 好处：低耦合，信息单向传递
 ```
