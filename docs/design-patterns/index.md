@@ -1,20 +1,24 @@
 # 设计模式
 
-#### MVC与MVVM区别
-MVVM即Model-View-ViewModel的简写。即模型-视图-视图模型。
-模型（Model）指的是后端传递的数据。
-视图(View)指的是所看到的页面。
-视图模型(ViewModel)是mvvm模式的核心，它是连接view和model的桥梁。
-它有两个方向：
-一是将模型（Model）转化成视图(View)，即将后端传递的数据转化成所看到的页面。实现的方式是：数据绑定。
-二是将视图(View)转化成模型(Model)，即将所看到的页面转化成后端的数据。实现的方式是：DOM 事件监听。
-这两个方向都实现的，我们称之为数据的双向绑定。
+#### MVC、MVP、MVVM区别
+- MVC
+```
+全称为 model-view-controller，即模型、视图、控制器。
+Model 负责数据的处理
+View 负责终端界面的展示
+controller 负责维护两者之间的数据传递
+坏处：在mvc架构中，controller不仅要负责业务处理，还要负责页面更新。遇到多处页面节点的更新，这是很不友好的。
+好处：低耦合，信息单向传递
+```
 
-MVC是Model-View- Controller的简写。即模型-视图-控制器。
-M和V指的意思和MVVM中的M和V意思一样。
-C即Controller指的是页面业务逻辑。
-使用MVC的目的就是将M和V的代码分离。
-MVC是单向通信。也就是View跟Model，必须通过Controller来承上启下。
-MVC和MVVM的区别并不是VM完全取代了C，只
-是在MVC的基础上增加了一层VM，只不过是弱化了C的概念，ViewModel存在目的在于抽离Controller中展示的业务逻辑，而不是替代Controller，其它视图操作业务等还是应该放在Controller中实现。也就是说MVVM实现的是业务逻辑组件的重用，
-使开发更高效，结构更清晰，增加代码的复用性。
+- MVVM
+```
+全称为 model-view-viewModel ，即模型、视图、视图模型
+用viewModel代替了controller，viewModel会自动处理更新页面，能让使用者更加专注业务逻辑的开发。
+```
+
+- MVP 
+```
+全称为 model-view-presenter, 即模型、视图、管理层
+MVP在MVC的基础上增加了限定，model和view不能直接通信，都需要通过presenter进行通信
+```
