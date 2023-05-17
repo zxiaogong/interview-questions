@@ -1,6 +1,6 @@
 # 设计模式
 
-#### MVC、MVP、MVVM区别
+## MVC、MVP、MVVM区别
 - MVC
 ```
 全称为 model-view-controller，即模型、视图、控制器。

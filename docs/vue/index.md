@@ -1,30 +1,30 @@
 # vue
 
 
-#### props data 优先级
+## props data 优先级
 - props ===> methods ===> data ===> computep (源码)
 
-#### computed、watch 区别
+## computed、watch 区别
 - computed是计算属性，支持缓存，当依赖的属性改变时会重新进行计算并返回
 - watch是监听属性，不支持缓存，指定的数据或者路由改变了才会执行
 
-#### computed、methods 区别
+## computed、methods 区别
 - computed 定义的成员可以像访问属性一样进行访问
 - methods 没有缓存，computed是响应式，methods不是响应式，methods定义的成员必须以函数形式调用
 
-#### ref
+## ref
 - 获取dom
 
-#### vue-router实现思路
+## vue-router实现思路
 - 1. 每个组件都能够使用 this.$router this.$route (利用minx混入)
 - 2. 初始化路由模式 hash history,并监听变化
 - 3. 创建路由表
 
-#### router常用路由模式
+## router常用路由模式
 - hash
 - hishtory
 
-#### ：说说你对slot的理解？slot使用场景有哪些？
+## 说说你对slot的理解？slot使用场景有哪些？
 - slot是vue框架中的插槽，可以理解为占位符，vue2.1.0 以上版本才支持
 - slot能让用户更好的拓展组件，复用组件和对组件做一些定制化的处理
 - 插槽有三种类型： 默认插槽 （只允许有一个插入位置）
