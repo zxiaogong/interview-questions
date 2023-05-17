@@ -76,6 +76,10 @@ export default defineUserConfig({
             text: "设计模式",
             link: '/design-patterns/',
           },
+          {
+            text: "其他",
+            link: '/other/',
+          },
         ],
       },
     ],
