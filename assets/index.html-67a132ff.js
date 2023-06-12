@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-123923ae","path":"/javascript/algorithm/","title":"算法题","lang":"zh-CN","frontmatter":{},"headers":[],"git":{"updatedTime":1681043666000,"contributors":[{"name":"zxiaogong","email":"1120197042@qq.com","commits":1}]},"filePathRelative":"javascript/algorithm/index.md"}');export{a as data};
