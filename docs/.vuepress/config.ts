@@ -29,16 +29,16 @@ export default defineUserConfig({
           {
             text: "javascript",
             link: '/javascript/',
-            children: [
-              {
-                text: "简答题",
-                link: '/javascript/short-answer/',
-              },
-              {
-                text: "算法题",
-                link: '/javascript/algorithm/',
-              },
-            ]
+            // children: [
+            //   {
+            //     text: "简答题",
+            //     link: '/javascript/short-answer/',
+            //   },
+            //   {
+            //     text: "算法题",
+            //     link: '/javascript/algorithm/',
+            //   },
+            // ]
           },
           {
             text: "ts",
@@ -47,6 +47,10 @@ export default defineUserConfig({
           {
             text: "vue",
             link: '/vue/',
+          },
+          {
+            text: "uniapp",
+            link: '/uniapp/',
           },
           {
             text: "react",
