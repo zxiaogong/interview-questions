@@ -146,8 +146,9 @@ deactivated</li>
 </ul>
 <h2 id="vue模板编译原理" tabindex="-1"><a class="header-anchor" href="#vue模板编译原理" aria-hidden="true">#</a> vue模板编译原理</h2>
 <ul>
-<li>解析器：解析成ATS树</li>
-<li>优化器：进行优化</li>
+<li>分成三个步骤：解析、优化、生成</li>
+<li>解析器：将模板字符串解析成AST（抽象语法树）树</li>
+<li>优化器：优化AST树</li>
 <li>代码生成器：将优化后的ATS树编译成可执行的代码</li>
 </ul>
 <h2 id="keep-alive了解吗" tabindex="-1"><a class="header-anchor" href="#keep-alive了解吗" aria-hidden="true">#</a> keep-alive了解吗</h2>
@@ -162,6 +163,10 @@ deactivated</li>
 <li>query传参</li>
 <li>props传参</li>
 </ul>
+<h2 id="路由几种模式-以及实现原理" tabindex="-1"><a class="header-anchor" href="#路由几种模式-以及实现原理" aria-hidden="true">#</a> 路由几种模式，以及实现原理</h2>
+<h2 id="封装一个组件的要素" tabindex="-1"><a class="header-anchor" href="#封装一个组件的要素" aria-hidden="true">#</a> 封装一个组件的要素</h2>
+<h2 id="组件样式模块化" tabindex="-1"><a class="header-anchor" href="#组件样式模块化" aria-hidden="true">#</a> 组件样式模块化</h2>
+<p>-- scode</p>
 </div></template>
 
 

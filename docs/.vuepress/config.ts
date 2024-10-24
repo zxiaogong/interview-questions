@@ -29,16 +29,16 @@ export default defineUserConfig({
           {
             text: "javascript",
             link: '/javascript/',
-            // children: [
-            //   {
-            //     text: "简答题",
-            //     link: '/javascript/short-answer/',
-            //   },
-            //   {
-            //     text: "算法题",
-            //     link: '/javascript/algorithm/',
-            //   },
-            // ]
+            children: [
+              // {
+              //   text: "简答题",
+              //   link: '/javascript/short-answer/',
+              // },
+              {
+                text: "算法题",
+                link: '/javascript/algorithm/',
+              },
+            ]
           },
           {
             text: "ts",
@@ -65,6 +65,10 @@ export default defineUserConfig({
             link: '/typescript/',
           },
           {
+            text: "axios",
+            link: '/axios/',
+          },
+          {
             text: "webpack",
             link: '/webpack/',
           },
@@ -79,6 +83,10 @@ export default defineUserConfig({
           {
             text: "设计模式",
             link: '/design-patterns/',
+          },
+          {
+            text: "工程化",
+            link: '/engineering/',
           },
           {
             text: "其他",

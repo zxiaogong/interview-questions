@@ -38,14 +38,17 @@
 - 场景：布局、表格列表、下拉框、弹窗等等
 
 ## vue生命周期
-- beforeCreate
-- created
-- beforeMount
-- mounted
-- beforeUpdated
-- update
-- beforeDestroy
-- destroyed
+- vue2
+    - beforeCreate
+    - created
+    - beforeMount
+    - mounted
+    - beforeUpdated
+    - update
+    - beforeDestroy
+    - destroyed
+- vue3 
+    - 
 - 如果有加keep组件的话，会多加两个生命周期
     activated
     deactivated
@@ -111,8 +114,9 @@
 
 
 ## vue模板编译原理
-- 解析器：解析成ATS树
-- 优化器：进行优化
+- 分成三个步骤：解析、优化、生成
+- 解析器：将模板字符串解析成AST（抽象语法树）树
+- 优化器：优化AST树
 - 代码生成器：将优化后的ATS树编译成可执行的代码
 
 ## keep-alive了解吗
@@ -125,3 +129,42 @@
 - params传参
 - query传参
 - props传参
+
+
+## 路由几种模式
+- hash
+- history
+- abstract
+
+## 几种路由模式的区别
+- 表现形式不同，hash会带个#号，history则不会
+- 跳转请求不同：hash不会发送请求，history会发送一个http请求
+- hash不利于seo优化
+- 前端打包自测时使用hash能看到内容
+
+## 封装一个组件的要素
+- 单一职责
+- 复用性
+- 通过数据驱动/事件驱动
+
+## 组件样式模块化
+- scode
+
+
+## $refs在通讯时有什么弊端
+- 破坏了单向数据流的原则
+- 导致组件复用困难
+- 
+
+
+## vue常见修饰符
+- v-if v-for v-show v-model
+
+
+## 父子组件嵌套下生命周期顺序
+- 
+
+
+## vuex持久化
+- 使用localStorage
+- vuex-persistedstate插件

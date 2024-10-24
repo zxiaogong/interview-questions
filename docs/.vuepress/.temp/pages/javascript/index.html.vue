@@ -41,6 +41,19 @@
 <li>null隐式转换会变成0，不容易发现错误，undefined转换数值的时候会变成NaN</li>
 <li>undefined是为了填补null这个坑设计出来的</li>
 </ul>
+<h2 id="promise作用及原理" tabindex="-1"><a class="header-anchor" href="#promise作用及原理" aria-hidden="true">#</a> Promise作用及原理</h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="promise-三种状态" tabindex="-1"><a class="header-anchor" href="#promise-三种状态" aria-hidden="true">#</a> Promise 三种状态</h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="webwoker" tabindex="-1"><a class="header-anchor" href="#webwoker" aria-hidden="true">#</a> webwoker</h2>
+<ul>
+<li></li>
+</ul>
+<h2 id="for-in-和-for-of-区别" tabindex="-1"><a class="header-anchor" href="#for-in-和-for-of-区别" aria-hidden="true">#</a> for in 和 for of 区别</h2>
 </div></template>
 
 
